@@ -1,17 +1,16 @@
-; *** Inno Setup version 6.0.0+ Spanish messages ***
+; *** Inno Setup version 6.0.0+ Basque (Euskara) messages ***
 ;
-; Maintained by Jorge Andres Brugger (jbrugger@ideaworks.com.ar)
-; Spanish.isl version 1.4 (20180208)
+; Maintained by Iker Ocio Zuazo (iker@ikerocio.com)
+; Basque.isl version 1.0 (20250621)
 ; Default.isl version 6.0.0
-; 
-; Thanks to Germ·n Giraldo, Jordi Latorre, Ximo Tamarit, Emiliano Llano, 
-; RamÛn Verduzco, Graciela GarcÌa,  Carles Millan and Rafael Barranco-Droege
+;
+; Based on Spanish.isl. Thanks to Jorge Andres Brugger and the original contributors.
 
 [LangOptions]
 ; The following three entries are very important. Be sure to read and 
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=Espa<00F1>ol
-LanguageID=$0c0a
+LanguageName=Euskara
+LanguageID=$042D
 LanguageCodePage=1252
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
@@ -27,72 +26,72 @@ LanguageCodePage=1252
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Instalar
-SetupWindowTitle=Instalar - %1
-UninstallAppTitle=Desinstalar
-UninstallAppFullTitle=Desinstalar - %1
+SetupAppTitle=Instalatu
+SetupWindowTitle=Instalatu - %1
+UninstallAppTitle=Desinstalatu
+UninstallAppFullTitle=Desinstalatu - %1
 
 ; *** Misc. common
-InformationTitle=InformaciÛn
-ConfirmTitle=Confirmar
-ErrorTitle=Error
+InformationTitle=Informazioa
+ConfirmTitle=Berretsi
+ErrorTitle=Errorea
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=Este programa instalar· %1. øDesea continuar?
-LdrCannotCreateTemp=Imposible crear archivo temporal. InstalaciÛn interrumpida
-LdrCannotExecTemp=Imposible ejecutar archivo en la carpeta temporal. InstalaciÛn interrumpida
-HelpTextNote=
+SetupLdrStartupMessage=Programa honek %1 instalatuko du. Jarraitu nahi duzu?
+LdrCannotCreateTemp=Ezin da aldi baterako fitxategia sortu. Instalazioa eten da.
+LdrCannotExecTemp=Ezin da aldi baterako karpetako fitxategia exekutatu. Instalazioa eten da.
+HelpTextNote=Oharra:
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nError %2: %3
-SetupFileMissing=El archivo %1 no se encuentra en la carpeta de instalaciÛn. Por favor, solucione el problema u obtenga una copia nueva del programa.
-SetupFileCorrupt=Los archivos de instalaciÛn est·n daÒados. Por favor, obtenga una copia nueva del programa.
-SetupFileCorruptOrWrongVer=Los archivos de instalaciÛn est·n daÒados o son incompatibles con esta versiÛn del programa de instalaciÛn. Por favor, solucione el problema u obtenga una copia nueva del programa.
-InvalidParameter=Se ha utilizado un par·metro no v·lido en la lÌnea de comandos:%n%n%1
-SetupAlreadyRunning=El programa de instalaciÛn a˙n est· ejecut·ndose.
-WindowsVersionNotSupported=Este programa no es compatible con la versiÛn de Windows de su equipo.
-WindowsServicePackRequired=Este programa requiere %1 Service Pack %2 o posterior.
-NotOnThisPlatform=Este programa no se ejecutar· en %1.
-OnlyOnThisPlatform=Este programa debe ejecutarse en %1.
-OnlyOnTheseArchitectures=Este programa sÛlo puede instalarse en versiones de Windows diseÒadas para las siguientes arquitecturas de procesadores:%n%n%1
-WinVersionTooLowError=Este programa requiere %1 versiÛn %2 o posterior.
-WinVersionTooHighError=Este programa no puede instalarse en %1 versiÛn %2 o posterior.
-AdminPrivilegesRequired=Debe iniciar la sesiÛn como administrador para instalar este programa.
-PowerUserPrivilegesRequired=Debe iniciar la sesiÛn como administrador o como miembro del grupo de Usuarios Avanzados para instalar este programa.
-SetupAppRunningError=El programa de instalaciÛn ha detectado que %1 est· ejecut·ndose.%n%nPor favor, ciÈrrelo ahora, luego haga clic en Aceptar para continuar o en Cancelar para salir.
-UninstallAppRunningError=El desinstalador ha detectado que %1 est· ejecut·ndose.%n%nPor favor, ciÈrrelo ahora, luego haga clic en Aceptar para continuar o en Cancelar para salir.
+LastErrorMessage=%1.%n%nErrorea %2: %3
+SetupFileMissing=Ez da %1 fitxategia aurkitu instalazio karpetan. Mesedez, konpondu arazoa edo lortu programaren beste kopia bat.
+SetupFileCorrupt=Instalazio-fitxategiak hondatuta daude. Mesedez, lortu programaren kopia berri bat.
+SetupFileCorruptOrWrongVer=Instalazio-fitxategiak hondatuta daude edo ez dira bateragarriak instalatzailearen bertsio honekin. Mesedez, konpondu arazoa edo lortu programaren kopia berri bat.
+InvalidParameter=Komando-lerroan parametro baliogabe bat erabili da:%n%n%1
+SetupAlreadyRunning=Instalatzailea dagoeneko exekutatzen ari da.
+WindowsVersionNotSupported=Programa hau ez da zure Windows bertsioarekin bateragarria.
+WindowsServicePackRequired=Programa honek %1 Service Pack %2 edo berriagoa behar du.
+NotOnThisPlatform=Programa hau ezin da %1 plataforman exekutatu.
+OnlyOnThisPlatform=Programa hau %1 plataforman exekutatu behar da.
+OnlyOnTheseArchitectures=Programa hau ondorengo prozesadore-arkitekturentzako Windows bertsioetan soilik instala daiteke:%n%n%1
+WinVersionTooLowError=Programa honek %1 %2 bertsioa edo berriagoa behar du.
+WinVersionTooHighError=Programa hau ezin da %1 %2 bertsioa edo berriagoan instalatu.
+AdminPrivilegesRequired=Programa hau instalatzeko administratzaile gisa saioa hasi behar duzu.
+PowerUserPrivilegesRequired=Programa hau instalatzeko administratzaile edo Erabiltzaile Aurreratuen taldeko kide izan behar duzu.
+SetupAppRunningError=Instalatzaileak detektatu du %1 exekutatzen ari dela.%n%nMesedez, itxi orain eta egin klik Ados botoian jarraitzeko edo Utzi botoian irteteko.
+UninstallAppRunningError=Desinstalatzaileak detektatu du %1 exekutatzen ari dela.%n%nMesedez, itxi orain eta egin klik Ados botoian jarraitzeko edo Utzi botoian irteteko.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=SelecciÛn del Modo de InstalaciÛn
-PrivilegesRequiredOverrideInstruction=Seleccione el modo de instalaciÛn
-PrivilegesRequiredOverrideText1=%1 puede ser instalado para todos los usuarios (requiere privilegios administrativos), o solo para Ud.
-PrivilegesRequiredOverrideText2=%1 puede ser instalado solo para Ud, o para todos los usuarios (requiere privilegios administrativos).
-PrivilegesRequiredOverrideAllUsers=Instalar para &todos los usuarios
-PrivilegesRequiredOverrideAllUsersRecommended=Instalar para &todos los usuarios (recomendado)
-PrivilegesRequiredOverrideCurrentUser=Instalar para &mÌ solamente
-PrivilegesRequiredOverrideCurrentUserRecommended=Instalar para &mÌ solamente (recomendado)
+PrivilegesRequiredOverrideTitle=Instalazio Modua Hautatu
+PrivilegesRequiredOverrideInstruction=Hautatu instalazio modua
+PrivilegesRequiredOverrideText1=%1 erabil daiteke erabiltzaile guztientzat instalatzeko (administratzaile baimenak behar dira), edo zuretzat bakarrik.
+PrivilegesRequiredOverrideText2=%1 instalatu daiteke zuretzat bakarrik, edo erabiltzaile guztientzat (administratzaile baimenak behar dira).
+PrivilegesRequiredOverrideAllUsers=Instalatu &erabiltzaile guztientzat
+PrivilegesRequiredOverrideAllUsersRecommended=Instalatu &erabiltzaile guztientzat (gomendatua)
+PrivilegesRequiredOverrideCurrentUser=Instalatu &niretzat bakarrik
+PrivilegesRequiredOverrideCurrentUserRecommended=Instalatu &niretzat bakarrik (gomendatua)
 
 ; *** Misc. errors
-ErrorCreatingDir=El programa de instalaciÛn no pudo crear la carpeta "%1"
-ErrorTooManyFilesInDir=Imposible crear un archivo en la carpeta "%1" porque contiene demasiados archivos
+ErrorCreatingDir=Instalatzaileak ezin izan du "%1" karpeta sortu
+ErrorTooManyFilesInDir=Ezin da fitxategirik sortu "%1" karpetan, fitxategi gehiegi daudelako
 
 ; *** Setup common messages
-ExitSetupTitle=Salir de la InstalaciÛn
-ExitSetupMessage=La instalaciÛn no se ha completado a˙n. Si cancela ahora, el programa no se instalar·.%n%nPuede ejecutar nuevamente el programa de instalaciÛn en otra ocasiÛn para completarla.%n%nøSalir de la instalaciÛn?
-AboutSetupMenuItem=&Acerca de Instalar...
-AboutSetupTitle=Acerca de Instalar
-AboutSetupMessage=%1 versiÛn %2%n%3%n%n%1 sitio Web:%n%4
+ExitSetupTitle=Irten Instalaziotik
+ExitSetupMessage=Instalazioa oraindik ez da amaitu. Orain bertan behera uzten baduzu, programa ez da instalatuko.%n%nInstalatzailea beste une batean exekutatu dezakezu instalazioa osatzeko.%n%nInstalaziotik irten nahi duzu?
+AboutSetupMenuItem=&Instalatzaileari buruz...
+AboutSetupTitle=Instalatzaileari buruz
+AboutSetupMessage=%1 %2 bertsioa%n%3%n%n%1 webgunea:%n%4
 AboutSetupNote=
-TranslatorNote=Spanish translation maintained by Jorge Andres Brugger (jbrugger@gmx.net)
+TranslatorNote=Itzulpena euskaraz: Iker Ocio Zuazo (ikerocio.com)
 
 ; *** Buttons
-ButtonBack=< &Atr·s
+ButtonBack=< &AtrÔøΩs
 ButtonNext=&Siguiente >
 ButtonInstall=&Instalar
 ButtonOK=Aceptar
 ButtonCancel=Cancelar
-ButtonYes=&SÌ
-ButtonYesToAll=SÌ a &Todo
+ButtonYes=&SÔøΩ
+ButtonYesToAll=SÔøΩ a &Todo
 ButtonNo=&No
 ButtonNoToAll=N&o a Todo
 ButtonFinish=&Finalizar
@@ -101,258 +100,256 @@ ButtonWizardBrowse=&Examinar...
 ButtonNewFolder=&Crear Nueva Carpeta
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Seleccione el Idioma de la InstalaciÛn
-SelectLanguageLabel=Seleccione el idioma a utilizar durante la instalaciÛn.
+SelectLanguageTitle=Hautatu Instalazioaren Hizkuntza
+SelectLanguageLabel=Hautatu instalazioan erabiliko den hizkuntza.
 
 ; *** Common wizard text
-ClickNext=Haga clic en Siguiente para continuar o en Cancelar para salir de la instalaciÛn.
+ClickNext=Egin klik Hurrengoa botoian jarraitzeko edo Utzi botoian instalazioa amaitzeko.
 BeveledLabel=
-BrowseDialogTitle=Buscar Carpeta
-BrowseDialogLabel=Seleccione una carpeta y luego haga clic en Aceptar.
-NewFolderName=Nueva Carpeta
+BrowseDialogTitle=Karpeta bilatu
+BrowseDialogLabel=Hautatu karpeta bat eta egin klik Ados botoian.
+NewFolderName=Karpeta Berria
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Bienvenido al asistente de instalaciÛn de [name]
-WelcomeLabel2=Este programa instalar· [name/ver] en su sistema.%n%nSe recomienda cerrar todas las dem·s aplicaciones antes de continuar.
+WelcomeLabel1=Ongi etorri [name] instalazioaren morroi honetara
+WelcomeLabel2=Programa honek [name/ver] instalatuko du zure sisteman.%n%nGomendagarria da beste aplikazio guztiak ixtea jarraitu aurretik.
 
 ; *** "Password" wizard page
-WizardPassword=ContraseÒa
-PasswordLabel1=Esta instalaciÛn est· protegida por contraseÒa.
-PasswordLabel3=Por favor, introduzca la contraseÒa y haga clic en Siguiente para continuar. En las contraseÒas se hace diferencia entre may˙sculas y min˙sculas.
-PasswordEditLabel=&ContraseÒa:
-IncorrectPassword=La contraseÒa introducida no es correcta. Por favor, intÈntelo nuevamente.
+WizardPassword=Pasahitza
+PasswordLabel1=Instalazio hau pasahitz batekin babestuta dago.
+PasswordLabel3=Mesedez, sartu pasahitza eta egin klik Hurrengoa botoian jarraitzeko. Kontuan izan maiuskulak eta minuskulak bereizten direla.
+PasswordEditLabel=&Pasahitza:
+IncorrectPassword=Pasahitza ez da zuzena. Saiatu berriro, mesedez.
 
 ; *** "License Agreement" wizard page
-WizardLicense=Acuerdo de Licencia
-LicenseLabel=Es importante que lea la siguiente informaciÛn antes de continuar.
-LicenseLabel3=Por favor, lea el siguiente acuerdo de licencia. Debe aceptar las cl·usulas de este acuerdo antes de continuar con la instalaciÛn.
-LicenseAccepted=A&cepto el acuerdo
-LicenseNotAccepted=&No acepto el acuerdo
+WizardLicense=Lizentzia Hitzarmena
+LicenseLabel=Garrantzitsua da hurrengo informazioa irakurtzea jarraitu aurretik.
+LicenseLabel3=Mesedez, irakurri lizentzia-hitzarmen hau. Instalazioarekin jarraitu aurretik baldintzak onartu behar dituzu.
+LicenseAccepted=Hitzarmena &onartzen dut
+LicenseNotAccepted=Ez dut hitzarmena &onartzen
 
 ; *** "Information" wizard pages
-WizardInfoBefore=InformaciÛn
-InfoBeforeLabel=Es importante que lea la siguiente informaciÛn antes de continuar.
-InfoBeforeClickLabel=Cuando estÈ listo para continuar con la instalaciÛn, haga clic en Siguiente.
-WizardInfoAfter=InformaciÛn
-InfoAfterLabel=Es importante que lea la siguiente informaciÛn antes de continuar.
-InfoAfterClickLabel=Cuando estÈ listo para continuar, haga clic en Siguiente.
+WizardInfoBefore=Informazioa
+InfoBeforeLabel=Garrantzitsua da jarraitu aurretik hurrengo informazioa irakurtzea.
+InfoBeforeClickLabel=Instalazioarekin jarraitzeko prest zaudenean, egin klik Hurrengoa botoian.
+WizardInfoAfter=Informazioa
+InfoAfterLabel=Garrantzitsua da jarraitu aurretik hurrengo informazioa irakurtzea.
+InfoAfterClickLabel=Jarraitzeko prest zaudenean, egin klik Hurrengoa botoian.
 
 ; *** "User Information" wizard page
-WizardUserInfo=InformaciÛn de Usuario
-UserInfoDesc=Por favor, introduzca sus datos.
-UserInfoName=Nombre de &Usuario:
-UserInfoOrg=&OrganizaciÛn:
-UserInfoSerial=N˙mero de &Serie:
-UserInfoNameRequired=Debe introducir un nombre.
+WizardUserInfo=Erabiltzailearen Informazioa
+UserInfoDesc=Mesedez, sartu zure datuak.
+UserInfoName=Erabiltzailearen &izena:
+UserInfoOrg=&Erakundea:
+UserInfoSerial=&Serie zenbakia:
+UserInfoNameRequired=Izena sartu behar duzu.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Seleccione la Carpeta de Destino
-SelectDirDesc=øDÛnde debe instalarse [name]?
-SelectDirLabel3=El programa instalar· [name] en la siguiente carpeta.
-SelectDirBrowseLabel=Para continuar, haga clic en Siguiente. Si desea seleccionar una carpeta diferente, haga clic en Examinar.
-DiskSpaceMBLabel=Se requieren al menos [mb] MB de espacio libre en el disco.
-CannotInstallToNetworkDrive=El programa de instalaciÛn no puede realizar la instalaciÛn en una unidad de red.
-CannotInstallToUNCPath=El programa de instalaciÛn no puede realizar la instalaciÛn en una ruta de acceso UNC.
-InvalidPath=Debe introducir una ruta completa con la letra de la unidad; por ejemplo:%n%nC:\APP%n%no una ruta de acceso UNC de la siguiente forma:%n%n\\servidor\compartido
-InvalidDrive=La unidad o ruta de acceso UNC que seleccionÛ no existe o no es accesible. Por favor, seleccione otra.
-DiskSpaceWarningTitle=Espacio Insuficiente en Disco
-DiskSpaceWarning=La instalaciÛn requiere al menos %1 KB de espacio libre, pero la unidad seleccionada sÛlo cuenta con %2 KB disponibles.%n%nøDesea continuar de todas formas?
-DirNameTooLong=El nombre de la carpeta o la ruta son demasiado largos.
-InvalidDirName=El nombre de la carpeta no es v·lido.
-BadDirName32=Los nombres de carpetas no pueden incluir los siguientes caracteres:%n%n%1
-DirExistsTitle=La Carpeta Ya Existe
-DirExists=La carpeta:%n%n%1%n%nya existe. øDesea realizar la instalaciÛn en esa carpeta de todas formas?
-DirDoesntExistTitle=La Carpeta No Existe
-DirDoesntExist=La carpeta:%n%n%1%n%nno existe. øDesea crear esa carpeta?
+WizardSelectDir=Hautatu Helmugako Karpeta
+SelectDirDesc=Non instalatu behar da [name]?
+SelectDirLabel3=Programa hurrengo karpetan instalatuko da: [name].
+SelectDirBrowseLabel=Jarraitzeko, egin klik Hurrengoa botoian. Beste karpeta bat hautatzeko, egin klik Arakatu botoian.
+DiskSpaceMBLabel=Gutxienez [mb] MB-ko disko espazio librea behar da.
+CannotInstallToNetworkDrive=Instalatzaileak ezin du sareko unitate batean instalatu.
+CannotInstallToUNCPath=Instalatzaileak ezin du UNC bide batean instalatu.
+InvalidPath=Bide osoa sartu behar duzu, unitatearen hizkiarekin; adibidez:%n%nC:\APP%n%nhau ez:%n%n\\zerbitzaria\partekatua
+InvalidDrive=Hautatutako unitatea edo UNC bidea ez da existitzen edo ez dago eskuragarri. Hautatu beste bat, mesedez.
+DiskSpaceWarningTitle=Disko Gune Nahikorik Ez
+DiskSpaceWarning=Instalazioak gutxienez %1 KB-ko leku librea behar du, baina hautatutako unitateak %2 KB baino ez dauka.%n%nJarraitu nahi duzu hala ere?
+DirNameTooLong=Karpeta izena edo bidea luzeegia da.
+InvalidDirName=Karpeta izena baliogabea da.
+BadDirName32=Karpeta izenek ezin dituzte karaktere hauek eduki:%n%n%1
+DirExistsTitle=Karpeta Dagoeneko Existitzen da
+DirExists=Karpeta hau:%n%n%1%n%ndagoeneko existitzen da. Instalatu nahi duzu hala ere karpeta honetan?
+DirDoesntExistTitle=Karpeta Ez da Existitzen
+DirDoesntExist=Karpeta hau:%n%n%1%n%nEz da existitzen. Sortu nahi duzu?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Seleccione los Componentes
-SelectComponentsDesc=øQuÈ componentes deben instalarse?
-SelectComponentsLabel2=Seleccione los componentes que desea instalar y desmarque los componentes que no desea instalar. Haga clic en Siguiente cuando estÈ listo para continuar.
-FullInstallation=InstalaciÛn Completa
-; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=InstalaciÛn Compacta
-CustomInstallation=InstalaciÛn Personalizada
-NoUninstallWarningTitle=Componentes Encontrados
-NoUninstallWarning=El programa de instalaciÛn ha detectado que los siguientes componentes ya est·n instalados en su sistema:%n%n%1%n%nDesmarcar estos componentes no los desinstalar·.%n%nøDesea continuar de todos modos?
+WizardSelectComponents=Hautatu Osagaiak
+SelectComponentsDesc=Zein osagai instalatu behar dira?
+SelectComponentsLabel2=Hautatu instalatu nahi dituzun osagaiak eta desmarkatu nahi ez dituzunak. Jarraitzeko, egin klik Hurrengoa botoian.
+FullInstallation=Instalazio Osoa
+CompactInstallation=Instalazio Trinkoa
+CustomInstallation=Instalazio Pertsonalizatua
+NoUninstallWarningTitle=Osagaiak Aurkitu Dira
+NoUninstallWarning=Instalatzaileak hurrengo osagaiak dagoeneko zure sisteman instalatuta daudela detektatu du:%n%n%1%n%nOsagai hauek desmarkatzeak ez ditu desinstalatuko.%n%nJarraitu nahi duzu hala ere?
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
-ComponentsDiskSpaceMBLabel=La selecciÛn actual requiere al menos [mb] MB de espacio en disco.
+ComponentsDiskSpaceMBLabel=Hautatutako aukerek gutxienez [mb] MB-ko disko lekua behar dute.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Seleccione las Tareas Adicionales
-SelectTasksDesc=øQuÈ tareas adicionales deben realizarse?
-SelectTasksLabel2=Seleccione las tareas adicionales que desea que se realicen durante la instalaciÛn de [name] y haga clic en Siguiente.
+WizardSelectTasks=Hautatu Beste Atazak
+SelectTasksDesc=Zein ataza gehigarri egin behar dira?
+SelectTasksLabel2=Hautatu [name] instalazioan burutu nahi dituzun ataza gehigarriak eta egin klik Hurrengoa botoian.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Seleccione la Carpeta del Men˙ Inicio
-SelectStartMenuFolderDesc=øDÛnde deben colocarse los accesos directos del programa?
-SelectStartMenuFolderLabel3=El programa de instalaciÛn crear· los accesos directos del programa en la siguiente carpeta del Men˙ Inicio.
-SelectStartMenuFolderBrowseLabel=Para continuar, haga clic en Siguiente. Si desea seleccionar una carpeta distinta, haga clic en Examinar.
-MustEnterGroupName=Debe proporcionar un nombre de carpeta.
-GroupNameTooLong=El nombre de la carpeta o la ruta son demasiado largos.
-InvalidGroupName=El nombre de la carpeta no es v·lido.
-BadGroupName=El nombre de la carpeta no puede incluir ninguno de los siguientes caracteres:%n%n%1
-NoProgramGroupCheck2=&No crear una carpeta en el Men˙ Inicio
+WizardSelectProgramGroup=Hautatu Hasierako Menuaren Karpeta
+SelectStartMenuFolderDesc=Non kokatu behar dira programaren lasterbideak?
+SelectStartMenuFolderLabel3=Instalatzaileak programaren lasterbideak hurrengo Hasierako Menuaren karpetan sortuko ditu.
+SelectStartMenuFolderBrowseLabel=Jarraitzeko, egin klik Hurrengoa botoian. Beste karpeta bat hautatzeko, egin klik Arakatu botoian.
+MustEnterGroupName=Karpeta izen bat eman behar duzu.
+GroupNameTooLong=Karpeta izena edo bidea luzeegia da.
+InvalidGroupName=Karpeta izena baliogabea da.
+BadGroupName=Karpeta izenak ezin ditu karaktere hauek eduki:%n%n%1
+NoProgramGroupCheck2=&Ez sortu karpeta bat Hasierako Menuan
 
 ; *** "Ready to Install" wizard page
-WizardReady=Listo para Instalar
-ReadyLabel1=Ahora el programa est· listo para iniciar la instalaciÛn de [name] en su sistema.
-ReadyLabel2a=Haga clic en Instalar para continuar con el proceso o haga clic en Atr·s si desea revisar o cambiar alguna configuraciÛn.
-ReadyLabel2b=Haga clic en Instalar para continuar con el proceso.
-ReadyMemoUserInfo=InformaciÛn del usuario:
-ReadyMemoDir=Carpeta de Destino:
-ReadyMemoType=Tipo de InstalaciÛn:
-ReadyMemoComponents=Componentes Seleccionados:
-ReadyMemoGroup=Carpeta del Men˙ Inicio:
-ReadyMemoTasks=Tareas Adicionales:
+WizardReady=Prest Instalatzeko
+ReadyLabel1=Orain [name] zure sisteman instalatzeko prest dago.
+ReadyLabel2a=Jarraitzeko, egin klik Instalatu botoian edo egin klik Atzera botoian konfigurazioa berrikusi edo aldatzeko.
+ReadyLabel2b=Jarraitzeko, egin klik Instalatu botoian.
+ReadyMemoUserInfo=Erabiltzailearen informazioa:
+ReadyMemoDir=Helmugako karpeta:
+ReadyMemoType=Instalazio mota:
+ReadyMemoComponents=Hautatutako osagaiak:
+ReadyMemoGroup=Hasierako Menuaren karpeta:
+ReadyMemoTasks=Ataza gehigarriak:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Prepar·ndose para Instalar
-PreparingDesc=El programa de instalaciÛn est· prepar·ndose para instalar [name] en su sistema.
-PreviousInstallNotCompleted=La instalaciÛn/desinstalaciÛn previa de un programa no se completÛ. Deber· reiniciar el sistema para completar esa instalaciÛn.%n%nUna vez reiniciado el sistema, ejecute el programa de instalaciÛn nuevamente para completar la instalaciÛn de [name].
-CannotContinue=El programa de instalaciÛn no puede continuar. Por favor, presione Cancelar para salir.
-ApplicationsFound=Las siguientes aplicaciones est·n usando archivos que necesitan ser actualizados por el programa de instalaciÛn. Se recomienda que permita al programa de instalaciÛn cerrar autom·ticamente estas aplicaciones.
-ApplicationsFound2=Las siguientes aplicaciones est·n usando archivos que necesitan ser actualizados por el programa de instalaciÛn. Se recomienda que permita al programa de instalaciÛn cerrar autom·ticamente estas aplicaciones. Al completarse la instalaciÛn, el programa de instalaciÛn intentar· reiniciar las aplicaciones.
-CloseApplications=&Cerrar autom·ticamente las aplicaciones
-DontCloseApplications=&No cerrar las aplicaciones
-ErrorCloseApplications=El programa de instalaciÛn no pudo cerrar de forma autom·tica todas las aplicaciones. Se recomienda que, antes de continuar, cierre todas las aplicaciones que utilicen archivos que necesitan ser actualizados por el programa de instalaciÛn.
+WizardPreparing=Instalatzeko prestatzen
+PreparingDesc=Instalatzailea zure sisteman [name] instalatzeko prestatzen ari da.
+PreviousInstallNotCompleted=Aurreko programa baten instalazioa/desinstalazioa ez da amaitu. Sistema berrabiarazi behar duzu instalazio hori amaitzeko.%n%nSistema berrabiarazi ondoren, exekutatu berriz instalatzailea [name] instalatzeko.
+CannotContinue=Instalatzaileak ezin du jarraitu. Mesedez, sakatu Utzi irteteko.
+ApplicationsFound=Hurrengo aplikazioek instalatzaileak eguneratu behar dituen fitxategiak erabiltzen ari dira. Gomendagarria da instalatzaileari aplikazio hauek automatikoki ixtea uztea.
+ApplicationsFound2=Hurrengo aplikazioek instalatzaileak eguneratu behar dituen fitxategiak erabiltzen ari dira. Gomendagarria da instalatzaileari aplikazio hauek automatikoki ixtea uztea. Instalazioa amaitutakoan, instalatzaileak aplikazioak berrabiaratzen saiatuko da.
+CloseApplications=&Itxi aplikazioak automatikoki
+DontCloseApplications=&Ez itxi aplikazioak
+ErrorCloseApplications=Instalatzaileak ezin izan ditu aplikazio guztiak automatikoki itxi. Jarraitu aurretik, gomendagarria da instalatzaileak eguneratu behar dituen fitxategiak erabiltzen dituzten aplikazio guztiak eskuz ixtea.
 
 ; *** "Installing" wizard page
-WizardInstalling=Instalando
-InstallingLabel=Por favor, espere mientras se instala [name] en su sistema.
+WizardInstalling=Instalatzen
+InstallingLabel=Itxaron mesedez, [name] zure sisteman instalatzen ari da.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Completando la instalaciÛn de [name]
-FinishedLabelNoIcons=El programa completÛ la instalaciÛn de [name] en su sistema.
-FinishedLabel=El programa completÛ la instalaciÛn de [name] en su sistema. Puede ejecutar la aplicaciÛn utilizando los accesos directos creados.
-ClickFinish=Haga clic en Finalizar para salir del programa de instalaciÛn.
-FinishedRestartLabel=Para completar la instalaciÛn de [name], su sistema debe reiniciarse. øDesea reiniciarlo ahora?
-FinishedRestartMessage=Para completar la instalaciÛn de [name], su sistema debe reiniciarse.%n%nøDesea reiniciarlo ahora?
-ShowReadmeCheck=SÌ, deseo ver el archivo L…AME
-YesRadio=&SÌ, deseo reiniciar el sistema ahora
-NoRadio=&No, reiniciarÈ el sistema m·s tarde
-; used for example as 'Run MyProg.exe'
-RunEntryExec=Ejecutar %1
-; used for example as 'View Readme.txt'
-RunEntryShellExec=Ver %1
+FinishedHeadingLabel=[name](r)en instalazioa amaitzen
+FinishedLabelNoIcons=Programa [name] zure sisteman instalatu da.
+FinishedLabel=Programa [name] zure sisteman instalatu da. Aplikazioa exekutatu dezakezu sortutako lasterbideak erabiliz.
+ClickFinish=Egin klik Amaitu botoian instalatzailetik irteteko.
+FinishedRestartLabel=[name](r)en instalazioa amaitzeko, zure sistema berrabiarazi behar da. Berrabiarazi nahi duzu orain?
+FinishedRestartMessage=[name](r)en instalazioa amaitzeko, zure sistema berrabiarazi behar da.%n%nBerrabiarazi nahi duzu orain?
+ShowReadmeCheck=Bai, README fitxategia ikusi nahi dut
+YesRadio=&Bai, sistema orain berrabiarazi nahi dut
+NoRadio=&Ez, sistema geroago berrabiaraziko dut
+RunEntryExec=Exekutatu %1
+RunEntryShellExec=Ikusi %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=El Programa de InstalaciÛn Necesita el Siguiente Disco
-SelectDiskLabel2=Por favor, inserte el Disco %1 y haga clic en Aceptar.%n%nSi los archivos pueden ser hallados en una carpeta diferente a la indicada abajo, introduzca la ruta correcta o haga clic en Examinar.
-PathLabel=&Ruta:
-FileNotInDir2=El archivo "%1" no se ha podido hallar en "%2". Por favor, inserte el disco correcto o seleccione otra carpeta.
-SelectDirectoryLabel=Por favor, especifique la ubicaciÛn del siguiente disco.
+ChangeDiskTitle=Instalatzaileak Hurrengo Diskoa Behar Du
+SelectDiskLabel2=Mesedez, sartu %1. Diskoa eta egin klik Ados botoian.%n%nFitxategiak behean adierazitako karpetan ez badaude, sartu ibilbide zuzena edo egin klik Arakatu botoian.
+PathLabel=&Ibilbidea:
+FileNotInDir2=Ezin izan da "%1" fitxategia aurkitu hemen: "%2". Mesedez, sartu disko zuzena edo hautatu beste karpeta bat.
+SelectDirectoryLabel=Mesedez, adierazi hurrengo diskoaren kokapena.
 
 ; *** Installation phase messages
-SetupAborted=La instalaciÛn no se ha completado.%n%nPor favor solucione el problema y ejecute nuevamente el programa de instalaciÛn.
-AbortRetryIgnoreSelectAction=Seleccione acciÛn
-AbortRetryIgnoreRetry=&Reintentar
-AbortRetryIgnoreIgnore=&Ignorar el error y continuar
-AbortRetryIgnoreCancel=Cancelar instalaciÛn
+SetupAborted=Instalazioa ez da amaitu.%n%nMesedez, konpondu arazoa eta exekutatu berriz instalatzailea.
+AbortRetryIgnoreSelectAction=Hautatu ekintza
+AbortRetryIgnoreRetry=&Saiatu berriro
+AbortRetryIgnoreIgnore=&Ez ikusi egin errorea eta jarraitu
+AbortRetryIgnoreCancel=Utzi instalazioa
 
 ; *** Installation status messages
-StatusClosingApplications=Cerrando aplicaciones...
-StatusCreateDirs=Creando carpetas...
-StatusExtractFiles=Extrayendo archivos...
-StatusCreateIcons=Creando accesos directos...
-StatusCreateIniEntries=Creando entradas INI...
-StatusCreateRegistryEntries=Creando entradas de registro...
-StatusRegisterFiles=Registrando archivos...
-StatusSavingUninstall=Guardando informaciÛn para desinstalar...
-StatusRunProgram=Terminando la instalaciÛn...
-StatusRestartingApplications=Reiniciando aplicaciones...
-StatusRollback=Deshaciendo cambios...
+StatusClosingApplications=Aplikazioak ixten...
+StatusCreateDirs=Karpetak sortzen...
+StatusExtractFiles=Fitxategiak ateratzen...
+StatusCreateIcons=Lasterbideak sortzen...
+StatusCreateIniEntries=INI sarrerak sortzen...
+StatusCreateRegistryEntries=Erregistro-sarrerak sortzen...
+StatusRegisterFiles=Fitxategiak erregistratzen...
+StatusSavingUninstall=Desinstalaziorako informazioa gordetzen...
+StatusRunProgram=Instalazioa amaitzen...
+StatusRestartingApplications=Aplikazioak berrabiarazten...
+StatusRollback=Aldaketak desegiten...
 
 ; *** Misc. errors
-ErrorInternal2=Error interno: %1
-ErrorFunctionFailedNoCode=%1 fallÛ
-ErrorFunctionFailed=%1 fallÛ; cÛdigo %2
-ErrorFunctionFailedWithMessage=%1 fallÛ; cÛdigo %2.%n%3
-ErrorExecutingProgram=Imposible ejecutar el archivo:%n%1
+ErrorInternal2=Barneko errorea: %1
+ErrorFunctionFailedNoCode=%1 huts egin du
+ErrorFunctionFailed=%1 huts egin du; kodea %2
+ErrorFunctionFailedWithMessage=%1 huts egin du; kodea %2.%n%3
+ErrorExecutingProgram=Ezin izan da fitxategia exekutatu:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Error al abrir la clave del registro:%n%1\%2
-ErrorRegCreateKey=Error al crear la clave del registro:%n%1\%2
-ErrorRegWriteKey=Error al escribir la clave del registro:%n%1\%2
+ErrorRegOpenKey=Errorea erregistro-gakoa irekitzean:%n%1\%2
+ErrorRegCreateKey=Errorea erregistro-gakoa sortzean:%n%1\%2
+ErrorRegWriteKey=Errorea erregistro-gakoan idaztean:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Error al crear entrada INI en el archivo "%1".
+ErrorIniEntry=Errorea INI sarrera sortzean fitxategian "%1".
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Omitir este archivo (no recomendado)
-FileAbortRetryIgnoreIgnoreNotRecommended=&Ignorar el error y continuar (no recomendado)
-SourceIsCorrupted=El archivo de origen est· daÒado
-SourceDoesntExist=El archivo de origen "%1" no existe
-ExistingFileReadOnly2=El archivo existente no puede ser reemplazado debido a que est· marcado como sÛlo-lectura.
-ExistingFileReadOnlyRetry=&Elimine el atributo de sÛlo-lectura y reintente
-ExistingFileReadOnlyKeepExisting=&Mantener el archivo existente
-ErrorReadingExistingDest=OcurriÛ un error mientras se intentaba leer el archivo:
-FileExists=El archivo ya existe.%n%nøDesea sobreescribirlo?
-ExistingFileNewer=El archivo existente es m·s reciente que el que est· tratando de instalar. Se recomienda que mantenga el archivo existente.%n%nøDesea mantener el archivo existente?
-ErrorChangingAttr=OcurriÛ un error al intentar cambiar los atributos del archivo:
-ErrorCreatingTemp=OcurriÛ un error al intentar crear un archivo en la carpeta de destino:
-ErrorReadingSource=OcurriÛ un error al intentar leer el archivo de origen:
-ErrorCopying=OcurriÛ un error al intentar copiar el archivo:
-ErrorReplacingExistingFile=OcurriÛ un error al intentar reemplazar el archivo existente:
-ErrorRestartReplace=FallÛ reintento de reemplazar:
-ErrorRenamingTemp=OcurriÛ un error al intentar renombrar un archivo en la carpeta de destino:
-ErrorRegisterServer=Imposible registrar el DLL/OCX: %1
-ErrorRegSvr32Failed=RegSvr32 fallÛ con el cÛdigo de salida %1
-ErrorRegisterTypeLib=Imposible registrar la librerÌa de tipos: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Fitxategi hau ez kopiatu (ez gomendatua)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Errorea ez ikusi eta jarraitu (ez gomendatua)
+SourceIsCorrupted=Jatorrizko fitxategia hondatuta dago
+SourceDoesntExist=Jatorrizko fitxategia "%1" ez da existitzen
+ExistingFileReadOnly2=Lehendik dagoen fitxategia ezin da ordezkatu, soilik-irakurtzeko moduan dagoelako.
+ExistingFileReadOnlyRetry=&Kendu soilik-irakurtzeko atributua eta saiatu berriro
+ExistingFileReadOnlyKeepExisting=&Mantendu lehendik dagoen fitxategia
+ErrorReadingExistingDest=Errorea gertatu da lehendik dagoen fitxategia irakurtzean:
+FileExists=Fitxategia dagoeneko existitzen da.%n%nGainidatzi nahi duzu?
+ExistingFileNewer=Lehendik dagoen fitxategia instalatu nahi duzuna baino berriagoa da. Gomendagarria da lehendik dagoena mantentzea.%n%nMantendu nahi duzu lehendik dagoen fitxategia?
+ErrorChangingAttr=Errorea gertatu da fitxategiaren atributuak aldatzean:
+ErrorCreatingTemp=Errorea gertatu da helmuga-karpetan fitxategia sortzean:
+ErrorReadingSource=Errorea gertatu da jatorrizko fitxategia irakurtzean:
+ErrorCopying=Errorea gertatu da fitxategia kopiatzean:
+ErrorReplacingExistingFile=Errorea gertatu da lehendik dagoen fitxategia ordezkatzean:
+ErrorRestartReplace=Berriz saiatu eta ordezteak huts egin du:
+ErrorRenamingTemp=Errorea gertatu da aldi baterako fitxategia izenez aldatzean:
+ErrorRegisterServer=Ezin da DLL/OCX erregistratu: %1
+ErrorRegSvr32Failed=RegSvr32-k huts egin du irteera-kodearekin: %1
+ErrorRegisterTypeLib=Ezin da tipoen liburutegia erregistratu: %1
 
 ; *** Uninstall display name markings
 UninstallDisplayNameMark=%1 (%2)
 UninstallDisplayNameMarks=%1 (%2, %3)
-UninstallDisplayNameMark32Bit=32-bit
-UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=Todos los usuarios
-UninstallDisplayNameMarkCurrentUser=Usuario actual
+UninstallDisplayNameMark32Bit=32 bit
+UninstallDisplayNameMark64Bit=64 bit
+UninstallDisplayNameMarkAllUsers=Erabiltzaile guztientzat
+UninstallDisplayNameMarkCurrentUser=Uneko erabiltzailea
 
 ; *** Post-installation errors
-ErrorOpeningReadme=OcurriÛ un error al intentar abrir el archivo L…AME.
-ErrorRestartingComputer=El programa de instalaciÛn no pudo reiniciar el equipo. Por favor, h·galo manualmente.
+ErrorOpeningReadme=Errorea gertatu da README fitxategia irekitzean.
+ErrorRestartingComputer=Instalatzaileak ezin izan du ordenagailua berrabiarazi. Mesedez, egin ezazu eskuz.
 
 ; *** Uninstaller messages
-UninstallNotFound=El archivo "%1" no existe. Imposible desinstalar.
-UninstallOpenError=El archivo "%1" no pudo ser abierto. Imposible desinstalar
-UninstallUnsupportedVer=El archivo de registro para desinstalar "%1" est· en un formato no reconocido por esta versiÛn del desinstalador. Imposible desinstalar
-UninstallUnknownEntry=Se encontrÛ una entrada desconocida (%1) en el registro de desinstalaciÛn
-ConfirmUninstall=øEst· seguro que desea desinstalar completamente %1 y todos sus componentes?
-UninstallOnlyOnWin64=Este programa sÛlo puede ser desinstalado en Windows de 64-bits.
-OnlyAdminCanUninstall=Este programa sÛlo puede ser desinstalado por un usuario con privilegios administrativos.
-UninstallStatusLabel=Por favor, espere mientras %1 es desinstalado de su sistema.
-UninstalledAll=%1 se desinstalÛ satisfactoriamente de su sistema.
-UninstalledMost=La desinstalaciÛn de %1 ha sido completada.%n%nAlgunos elementos no pudieron eliminarse, pero podr· eliminarlos manualmente si lo desea.
-UninstalledAndNeedsRestart=Para completar la desinstalaciÛn de %1, su sistema debe reiniciarse.%n%nøDesea reiniciarlo ahora?
-UninstallDataCorrupted=El archivo "%1" est· daÒado. No puede desinstalarse
+UninstallNotFound=" %1 " fitxategia ez da existitzen. Ezin da desinstalatu.
+UninstallOpenError=" %1 " fitxategia ezin izan da ireki. Ezin da desinstalatu.
+UninstallUnsupportedVer=‚Äú%1‚Äù desinstalazio-erregistroaren formatua ez da bertsio honekin bateragarria. Ezin da desinstalatu.
+UninstallUnknownEntry=Desinstalazioaren erregistroan sarrera ezezaguna aurkitu da (%1)
+ConfirmUninstall=Ziur zaude %1 eta bere osagai guztiak erabat desinstalatu nahi dituzula?
+UninstallOnlyOnWin64=Programa hau soilik 64 biteko Windows sistemetan desinstala daiteke.
+OnlyAdminCanUninstall=Programa hau administratzaile baimenak dituen erabiltzaile batek soilik desinstala dezake.
+UninstallStatusLabel=Itxaron mesedez %1 zure sistematik desinstalatzen den bitartean.
+UninstalledAll=%1 zure sistematik arrakastaz desinstalatu da.
+UninstalledMost=%1 desinstalazioa burutu da.%n%nElementu batzuk ezin izan dira ezabatu, baina eskuz ezaba ditzakezu nahi izanez gero.
+UninstalledAndNeedsRestart=%1 desinstalazioa amaitzeko, zure ordenagailua berrabiarazi behar da.%n%nBerrabiarazi orain?
+UninstallDataCorrupted="%1" fitxategia hondatuta dago. Ezin da desinstalatu.
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=øEliminar Archivo Compartido?
-ConfirmDeleteSharedFile2=El sistema indica que el siguiente archivo compartido no es utilizado por ning˙n otro programa. øDesea eliminar este archivo compartido?%n%nSi elimina el archivo y hay programas que lo utilizan, esos programas podrÌan dejar de funcionar correctamente. Si no est· seguro, elija No. Dejar el archivo en su sistema no producir· ning˙n daÒo.
-SharedFileNameLabel=Archivo:
-SharedFileLocationLabel=UbicaciÛn:
-WizardUninstalling=Estado de la DesinstalaciÛn
-StatusUninstalling=Desinstalando %1...
+ConfirmDeleteSharedFileTitle=Fitxategi partekatua ezabatu?
+ConfirmDeleteSharedFile2=Sistema honek adierazten du hurrengo fitxategi partekatua ez dela beste inongo programak erabiltzen. Ezabatu nahi duzu fitxategi hau?%n%nFitxategia ezabatzen baduzu eta beste programa batzuek erabiltzen badute, programa horiek ez dute behar bezala funtzionatuko. Ziur ez bazaude, aukeratu Ez. Fitxategia zure sisteman uzteak ez du kalterik eragingo.
+SharedFileNameLabel=Fitxategia:
+SharedFileLocationLabel=Kokalekua:
+WizardUninstalling=Desinstalazioaren egoera
+StatusUninstalling=%1 desinstalatzen...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Instalando %1.
-ShutdownBlockReasonUninstallingApp=Desinstalando %1.
+ShutdownBlockReasonInstallingApp=%1 instalatzen.
+ShutdownBlockReasonUninstallingApp=%1 desinstalatzen.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 versiÛn %2
-AdditionalIcons=Accesos directos adicionales:
-CreateDesktopIcon=Crear un acceso directo en el &escritorio
-CreateQuickLaunchIcon=Crear un acceso directo en &Inicio R·pido
-ProgramOnTheWeb=%1 en la Web
-UninstallProgram=Desinstalar %1
-LaunchProgram=Ejecutar %1
-AssocFileExtension=&Asociar %1 con la extensiÛn de archivo %2
-AssocingFileExtension=Asociando %1 con la extensiÛn de archivo %2...
-AutoStartProgramGroupDescription=Inicio:
-AutoStartProgram=Iniciar autom·ticamente %1
-AddonHostProgramNotFound=%1 no pudo ser localizado en la carpeta seleccionada.%n%nøDesea continuar de todas formas?
+NameAndVersion=%1 %2 bertsioa
+AdditionalIcons=Ikono osagarriak:
+CreateDesktopIcon=Sortu lasterbide bat &mahaigainean
+CreateQuickLaunchIcon=Sortu lasterbide bat &Abiarazte Azkarrean
+ProgramOnTheWeb=%1 webgunean
+UninstallProgram=%1 desinstalatu
+LaunchProgram=%1 exekutatu
+AssocFileExtension=&Elkartu %1 fitxategi luzapenarekin %2
+AssocingFileExtension=%1 elkartzen %2 fitxategi luzapenarekin...
+AutoStartProgramGroupDescription=Abiaraztea:
+AutoStartProgram=%1 automatikoki abiarazi
+AddonHostProgramNotFound=%1 ezin izan da aurkitu hautatutako karpetan.%n%nJarraitu nahi duzu hala ere?
+

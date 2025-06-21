@@ -6,6 +6,7 @@
 ;
 ; Based on Spanish.isl. Thanks to Jorge Andres Brugger and the original contributors.
 
+
 [LangOptions]
 ; The following three entries are very important. Be sure to read and 
 ; understand the '[LangOptions] section' topic in the help file.
@@ -85,19 +86,19 @@ AboutSetupNote=
 TranslatorNote=Itzulpena euskaraz: Iker Ocio Zuazo (ikerocio.com)
 
 ; *** Buttons
-ButtonBack=< &Atr�s
-ButtonNext=&Siguiente >
-ButtonInstall=&Instalar
-ButtonOK=Aceptar
-ButtonCancel=Cancelar
-ButtonYes=&S�
-ButtonYesToAll=S� a &Todo
-ButtonNo=&No
-ButtonNoToAll=N&o a Todo
-ButtonFinish=&Finalizar
-ButtonBrowse=&Examinar...
-ButtonWizardBrowse=&Examinar...
-ButtonNewFolder=&Crear Nueva Carpeta
+ButtonBack=< &Atzera
+ButtonNext=&Hurrengoa >
+ButtonInstall=&Instalatu
+ButtonOK=Ados
+ButtonCancel=Utzi
+ButtonYes=&Bai
+ButtonYesToAll=Bai &guztiak
+ButtonNo=&Ez
+ButtonNoToAll=E&z guztiak
+ButtonFinish=&Amaitu
+ButtonBrowse=&Arakatu...
+ButtonWizardBrowse=&Arakatu...
+ButtonNewFolder=Karpeta &berria sortu
 
 ; *** "Select Language" dialog messages
 SelectLanguageTitle=Hautatu Instalazioaren Hizkuntza
@@ -169,6 +170,7 @@ WizardSelectComponents=Hautatu Osagaiak
 SelectComponentsDesc=Zein osagai instalatu behar dira?
 SelectComponentsLabel2=Hautatu instalatu nahi dituzun osagaiak eta desmarkatu nahi ez dituzunak. Jarraitzeko, egin klik Hurrengoa botoian.
 FullInstallation=Instalazio Osoa
+; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=Instalazio Trinkoa
 CustomInstallation=Instalazio Pertsonalizatua
 NoUninstallWarningTitle=Osagaiak Aurkitu Dira
@@ -230,7 +232,9 @@ FinishedRestartMessage=[name](r)en instalazioa amaitzeko, zure sistema berrabiar
 ShowReadmeCheck=Bai, README fitxategia ikusi nahi dut
 YesRadio=&Bai, sistema orain berrabiarazi nahi dut
 NoRadio=&Ez, sistema geroago berrabiaraziko dut
+; used for example as 'Run MyProg.exe'
 RunEntryExec=Exekutatu %1
+; used for example as 'View Readme.txt'
 RunEntryShellExec=Ikusi %1
 
 ; *** "Setup Needs the Next Disk" stuff
@@ -352,4 +356,3 @@ AssocingFileExtension=%1 elkartzen %2 fitxategi luzapenarekin...
 AutoStartProgramGroupDescription=Abiaraztea:
 AutoStartProgram=%1 automatikoki abiarazi
 AddonHostProgramNotFound=%1 ezin izan da aurkitu hautatutako karpetan.%n%nJarraitu nahi duzu hala ere?
-
